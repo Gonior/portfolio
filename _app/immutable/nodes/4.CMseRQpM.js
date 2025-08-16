@@ -1,0 +1,1 @@
+import"../chunks/DsnmJJEf.js";import"../chunks/69_IOA4Y.js";import{m as r,r as a}from"../chunks/DmWJLMMG.js";var m=r('<h1 class="text-red-500">about this site</h1>');function i(t){var o=m();a(t,o)}export{i as component};
