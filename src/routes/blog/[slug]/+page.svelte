@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { resolve } from "$app/paths";
     import type { PageProps } from "./$types"
     let { data } : PageProps = $props()
 
@@ -6,5 +7,4 @@
 
 <h1>{data.title}</h1>
 <p>{@html data.content}</p>
-<a href="/blog">kembali</a>
-<a href="/">kembali ke beranda</a>
+<a href="{resolve('/blog')}">kembali</a>
